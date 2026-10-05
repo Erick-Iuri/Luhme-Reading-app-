@@ -104,10 +104,10 @@ export default function Navbar() {
 
             {/* Botões de Ação */}
             <div className="flex justify-end gap-3 pt-2">
-              <button className="px-5 py-2 bg-white text-[#1A231E] text-sm font-semibold rounded-full hover:bg-gray-200">
+              <button className="px-5 py-2 bg-white text-[#031D2E] text-sm font-semibold rounded-full hover:bg-gray-200">
                 Limpar
               </button>
-              <button className="px-5 py-2 bg-[#E53925] text-white text-sm font-semibold rounded-full hover:bg-[#C82E1C]">
+              <button className="px-5 py-2 bg-[#F08F3C] text-white text-sm font-semibold rounded-full hover:bg-[#FFBE47]">
                 Aplicar
               </button>
             </div>

@@ -94,7 +94,7 @@ export default function Content() {
             className="w-125 h-90"
           />
           {/* Seletor de modo */}
-          <div className="flex gap-2 bg-[#2A352E] p-1 rounded-full text-sm absolute bottom-4">
+          <div className="flex font-mono gap-2 bg-white/10 backdrop-blur-md p-1 rounded-full text-sm absolute bottom-4">
             <button
               onClick={() => trocarModo("foco", 25)}
               className={`cursor-pointer px-4 py-1.5 rounded-full transition-all ${
@@ -135,11 +135,16 @@ export default function Content() {
       <div className="flex justify-center items-center gap-3">
         <div
           onClick={toggleTimer}
-          className="bg-[radial-gradient(circle_at_50%_50%,#D32F2F_0%,#8B0000_50%,#4A0000_100%)]
+          className="
         text-white border-black shadow-lg font-mono relative
           border-3 rounded-lg w-63 h-21 text-lg cursor-pointer
-          hover:bg-[radial-gradient(circle_at_50%_50%,#E34A4A_0%,#9E0000_50%,#5B0000_100%)] 
-          active:bg-[radial-gradient(circle_at_50%_50%,#C22020_0%,#7A0000_50%,#3A0000_100%)] 
+
+          bg-[radial-gradient(circle_at_50%_50%,#FFC24A_0%,#FFA938_50%,#FF9228_100%)]
+
+          active:bg-[linear-gradient(135deg,#494C4A_0%,#7A7D7A_50%,#494C4A_100%)]
+
+          hover:bg-[radial-gradient(circle_at_50%_50%,#FFC24A_100%,#FFA938_50%,#FF9228_0%)]
+          
           transition-all duration-300
           "
         >
