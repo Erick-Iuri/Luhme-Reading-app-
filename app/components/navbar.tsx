@@ -32,7 +32,9 @@ export default function Navbar() {
             {/* Cabeçalho */}
             <div className="flex justify-between items-center">
               <h2 className="text-lg text-white">Configurações</h2>
-              <button className="text-white hover:text-[#60635D] text-xl">
+              <button 
+              onClick={() => setIsOpen(!isOpen)}
+              className="text-white hover:text-[#60635D] text-xl cursor-pointer">
                 ✕
               </button>
             </div>
